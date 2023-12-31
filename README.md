@@ -1,2 +1,2 @@
-# lecture-helm testa 
+# lecture-helm testa skip
  
