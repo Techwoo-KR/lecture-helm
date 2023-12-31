@@ -1,19 +1,19 @@
- 1 name: Demo Workflows
- 2 on:
- 3   push:
- 4     branches: [ "main" ]
- 5 jobs:
- 6   job1:
- 7     runs-on: ubuntu-latest
- 8     steps:
- 9     - name: Step 1
-10       run: echo "Job-1 / Step-1"
-11     - name: Step 2
-12       run: echo "Job-1 / Step-2"
-13   job2:
-14     runs-on: ubuntu-latest
-15     steps:
-16     - name: Step 1
-17       run: echo "Job-2 / Step-1"
-18     - name: Step 2
-19       run: echo "Job-2 / Step-2"
+name: Demo Workflows
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Step 1
+      run: echo "Job-1 / Step-1"
+    - name: Step 2
+      run: echo "Job-1 / Step-2"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Step 1
+      run: echo "Job-2 / Step-1"
+    - name: Step 2
+      run: echo "Job-2 / Step-2"
